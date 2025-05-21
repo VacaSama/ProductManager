@@ -27,6 +27,13 @@ namespace ProductManager
         /// <summary>
         /// Manufacturers suggested retail price. 
         /// </summary>
+        /// 
+
+        /// <summary>   
+        /// The price we are selling said product for.
+        /// </summary>    
+
+        public double SalesPrice { get; set; }
         public double MSRP { get; set; }
 
         /// <summary>
