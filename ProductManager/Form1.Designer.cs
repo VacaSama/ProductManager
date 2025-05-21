@@ -31,6 +31,7 @@
             name_lbl = new Label();
             product_txtbox = new TextBox();
             add_bttn = new Button();
+            exit_bttn = new Button();
             SuspendLayout();
             // 
             // name_lbl
@@ -51,18 +52,28 @@
             // 
             // add_bttn
             // 
-            add_bttn.Location = new Point(142, 342);
+            add_bttn.Location = new Point(38, 343);
             add_bttn.Name = "add_bttn";
             add_bttn.Size = new Size(164, 78);
             add_bttn.TabIndex = 2;
             add_bttn.Text = "Add Product ";
             add_bttn.UseVisualStyleBackColor = true;
             // 
+            // exit_bttn
+            // 
+            exit_bttn.Location = new Point(248, 343);
+            exit_bttn.Name = "exit_bttn";
+            exit_bttn.Size = new Size(164, 78);
+            exit_bttn.TabIndex = 3;
+            exit_bttn.Text = "Exit";
+            exit_bttn.UseVisualStyleBackColor = true;
+            // 
             // product_Form
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(461, 515);
+            Controls.Add(exit_bttn);
             Controls.Add(add_bttn);
             Controls.Add(product_txtbox);
             Controls.Add(name_lbl);
@@ -78,5 +89,6 @@
         private Label name_lbl;
         private TextBox product_txtbox;
         private Button add_bttn;
+        private Button exit_bttn;
     }
 }
