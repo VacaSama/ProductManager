@@ -68,6 +68,7 @@
             exit_bttn.TabIndex = 3;
             exit_bttn.Text = "Exit";
             exit_bttn.UseVisualStyleBackColor = true;
+            exit_bttn.Click += exit_bttn_Click;
             // 
             // product_Form
             // 

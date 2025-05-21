@@ -31,8 +31,7 @@ namespace ProductManager
 
         /// <summary>   
         /// The price we are selling said product for.
-        /// </summary>    
-
+        /// </summary>
         public double SalesPrice { get; set; }
         public double MSRP { get; set; }
 

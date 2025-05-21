@@ -20,5 +20,10 @@ namespace ProductManager
             };
             MessageBox.Show("Product added to database!");
         }
+
+        private void exit_bttn_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
