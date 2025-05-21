@@ -58,6 +58,7 @@
             add_bttn.TabIndex = 2;
             add_bttn.Text = "Add Product ";
             add_bttn.UseVisualStyleBackColor = true;
+            add_bttn.Click += add_bttn_Click;
             // 
             // exit_bttn
             // 
