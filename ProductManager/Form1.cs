@@ -18,6 +18,7 @@ namespace ProductManager
             {
                 Name = product_txtbox.Text
             };
+            MessageBox.Show("Product added to database!");
         }
     }
 }
